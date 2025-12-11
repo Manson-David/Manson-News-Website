@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manson main-news</title>
+    <script defer src="/assets/main.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <script src="https://kit.fontawesome.com/b38668bc00.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <b><div id="currentDate">Loading date <i class="fa-solid fa-spinner fa-spin-pulse"></i></div></b>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook-f fa-xl" style="color: #0555e1;"></i>                
+                <i class="fa-brands fa-x-twitter fa-xl"></i>
+                <i class="fa-brands fa-instagram fa-xl" style="color: #d62e61;"></i>
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #216ae8;"></i>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon"><img src="/images/logo.png" alt=""></div>
+                Manson News
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-content">
+            <ul class="nav-menu">
+                <li><a href="#" class="active" >Home</a></li>
+                <li><a href="#" data-category="business">Business</a></li>
+                <li><a href="#" data-category="technology">Technology</a></li>
+                <li><a href="#" data-category="sports">Sports</a></li>
+                <li><a href="#" data-category="entertainment">Entertainment</a></li>
+                <li><a href="#" data-category="health">Health</a></li>
+                <li><a href="#" data-category="science">Science</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="featured-section" id="featuredSection"></div>
+
+    <div class="tabs">
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="recent">Recent</button>
+            <button class="tab-btn" data-tab="trending">Trending</button>
+            <button class="tab-btn" data-tab="popular">Most Views</button>
+        </div>
+    </div>
+
+    <div class="news-grid">
+        <div class="main-news" id="mainNews"></div>
+        <div class="sidebar" id="sidebar"></div>
+    </div>
+
+</body>
+</html>
